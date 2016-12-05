@@ -1,8 +1,10 @@
-# webpack-stream [![Build Status](http://img.shields.io/travis/shama/webpack-stream.svg)](https://travis-ci.org/shama/webpack-stream)
+> Note: this is a fork of [@shama's `webpack-stream`](https://github.com/shama/webpack-stream) with [this PR](https://github.com/shama/webpack-stream/pull/126) included. It fixes the problem that the plugin stops working after a syntax error when in watching mode. I published this fixed version to NPM because the PR was not merged after three months. Credits to author [@shama](https://github.com/shama).
+
+# webpack-stream 
 
 Run [webpack](https://github.com/webpack/webpack) as a stream to conveniently integrate with gulp.
 
-[![NPM](https://nodei.co/npm/webpack-stream.png?downloads=true)](https://nodei.co/npm/webpack-stream/)
+[![NPM](https://nodei.co/npm/webpack-stream-fixed.png?downloads=true)](https://nodei.co/npm/webpack-stream-fixed/)
 
 ## Usage
 
@@ -160,6 +162,7 @@ gulp.task('default', function() {
 ```
 
 ## Release History
+* 3.2.1 - Fix the problem that the plugin stops working after a syntax error when in watching mode (@jeroennoten).
 * 3.2.0 - Ability to use multiple compilers (@saschagehlich).
 * 3.1.0 - Better error output (@hi-q).
 * 3.0.1 - Fix fonts being passed through streams (@mattlewis92).
