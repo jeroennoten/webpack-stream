@@ -1,15 +1,19 @@
 {
-  "name": "webpack-stream",
-  "version": "3.2.0",
+  "name": "webpack-stream-fixed",
+  "version": "3.2.1",
   "description": "Run webpack as a stream",
   "license": "MIT",
-  "homepage": "https://github.com/shama/webpack-stream",
-  "repository": "shama/webpack-stream",
+  "homepage": "https://github.com/jeroennoten/webpack-stream",
+  "repository": "jeroennoten/webpack-stream",
   "author": {
     "name": "Kyle Robinson Young",
     "email": "kyle@dontkry.com",
     "url": "http://dontkry.com"
   },
+  "contributors": [{
+    "name": "Jeroen Noten",
+    "email": "jeroennoten@me.com"
+  }],
   "engines": {
     "node": ">= 0.10.0"
   },
